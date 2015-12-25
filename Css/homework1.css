@@ -1,0 +1,79 @@
+ul{list-style: none;}
+body{background-color: #e0eee8;}
+p{color: #666666;}
+
+.header{background:url(../image/1.jpg);background-size: cover;color: $highlight_text-color;}
+
+.login{ overflow:hidden;}
+.login ul{float: right;color: #fff;}
+.login li{float:left;margin: 1em .5em;padding: .5em 1em;border: 1px solid transparent;border-radius: 2px;}
+.login li:last-child{border: 1px solid #fff;}
+
+.search-bar{margin: auto;padding-top: 10em;color: #fff;text-align: center;padding-bottom: 30px;}
+.search-bar h1{padding-left: 10px;padding: 1em 0 .5em 0;font-weight: bold;}
+.search-bar h3{color:#d9dada;}
+.search-bar .search-area{padding: 2em 0 4em 0;}
+.search-bar .search-area input{padding: 1em;border: 0;width: 30em;border-radius: 2px 0 0 2px;background: #efefef; opacity:  .3;}
+.search-bar .search-area button{color: white;padding: 1em;border: 0;width: 6em;border-radius: 0 2px 2px 0;background-color:lightgreen;
+}
+
+.numbers{width: 585px;height: 170px;margin: 0 auto;position:relative;top: -100px;background: #fff;}
+.numbers ul{padding-left: 0;padding-right: 0;}
+.numbers li{float: left; width:145px;border-top: 1px solid #D9DADA;border-bottom: 1px solid #D9DADA;border-left: 1px solid #D9DADA;}
+.numbers li:last-child{border-right: 1px solid #D9DADA;}
+.numbers li h3{font-size: 2em;padding:0 0 0 0;font-weight: bold;}
+.numbers li h5{padding:  1em 0 2em 1em;}
+
+.how-it-works{text-align: center;}
+.how-it-works ul{list-style: none;overflow: hidden;}
+.how-it-works li{float: left;width:33.3%;position: relative;}
+.how-it-works .detail .number
+{font-size: 2em;color:#0D0D0D;border: 1px solid #0D0D0D;width: 1em;height: 1em;display: block;margin: 1em auto 2em auto;padding: .4em;border-radius: 100%;background: #fff;}
+.how-it-works .detail i{font-size: 3em;color: #ECA95A;}
+.how-it-works .detail p{padding-left:100px;  width: 230px;padding-bottom: 50px;}
+.how-it-works h1{font-size: 2em;text-transform: uppercase;padding: 1em 0;}
+.how-it-works h1:after{display: block;content: "";background-color: #8B8B7A;width:2em;height: .1em;margin: .4em auto;}
+.how-it-works li:before
+{display: block;content: "";background-color: #8B8B7A;width: 100%;height: 1px;position: absolute;top: 4em;left: 50%;margin: 0 2em;}
+.how-it-works li:last-child:before{display: none;}
+
+.why-choose-us{width: 800px;margin-left:300px;position: relative;}
+.why-choose-us h1{text-align: center;padding-top: 10px;}
+.why-choose-us .leftpart{width: 300px;float: left;}
+.why-choose-us .leftpart i{position:absolute; left: 5px;font-size: 2em;color: lightgreen;}
+.why-choose-us .rightpart{float:right;width: 300px;}
+.why-choose-us .rightpart i{position:absolute; float: right;left:500px;font-size: 2em;color: #ECA95A;}
+
+.bottomcontent{width:410px;height: 100px;margin: 0 auto;}
+.bottomcontent ul{overflow: hidden;padding-left:0;padding-right: 0;  }
+.bottomcontent li{float: left;text-align: center;padding:20px 20px 20px 20px; border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;}
+.bottomcontent li:last-child{border-right: 1px solid #CCCCCC;width: 150px;}
+.bottomcontent li:first-child{background: #666666;width: 150px;
+}
+
+.fontsize{width: 600px;height: 100px;margin: 0 auto;}
+.fontsize h2{color: #666666;}
+
+.imgicon{width: 600px;height: 100px;margin: 0 auto;}
+.imgicon ul{overflow: hidden;;}
+.imgicon li{float: left;padding-left: 20px;}
+.imgicon li:first-child{opacity: 0.3;}
+.imgicon li:last-child{opacity: 0.3;}
+.imgicon img{
+  width:100px;
+  border-radius: 100%;
+  border: .2em solid #fff;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+}
+.bottomer{background:url(../image/5.jpg);background-size: cover;height:200px;color: $highlight_text-color;margin-top: 20px;}
+.bottomer .search-area {padding-left: 350px;padding-top: 100px;}
+.bottomer .search-area p{float: left;padding-right: 0.5em;color: #fff;font-size: 1.5em;}
+.bottomer .search-area input{ padding: 1.5em;border: 0;width: 30em;border-radius: 2px 0 0 2px;background: #efefef; opacity:  .3;}
+.bottomer .search-area button{color: white;padding: 1.5em;border: 0;width: 7em;border-radius: 0 2px 2px 0;background-color:lightgreen;}
+
+
+.bottompart .leftpart{float: left;}
+.bottompart .leftpart li{float: left;padding-left: 10px;color: #fff;}
+.bottompart .rightpart{float: right;padding-right: 100px}
+.bottompart .rightpart img{width:100px;height: 20px;}
+
